@@ -11,3 +11,7 @@ class Student:
     ob = Student(name, studentID, studentScore)
     ls.append(ob)
 
+  def search(self, rn):
+    for i in range(ls.__len__()):
+      if(ls[i].rollno == rn):
+        return i
